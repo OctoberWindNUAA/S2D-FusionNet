@@ -10,6 +10,10 @@ Official PyTorch implementation of the **S2D FusionNet** architecture for High-R
 
 ## Architecture Overview
 
+<p align="center">
+  <img src="assets/framework.png" alt="S2D FusionNet Overall Architecture" width="85%">
+</p>
+
 **S2D FusionNet** is designed to jointly model local scattering responses and non-Euclidean topological relationships among scattering centers from radar HRRP sequences.
 
 ```
@@ -61,6 +65,8 @@ Official PyTorch implementation of the **S2D FusionNet** architecture for High-R
 
 ```text
 s2dfusionnet/
+├── assets/
+│   └── framework.png          # Architecture diagram
 ├── __init__.py                # Package exports and versioning
 ├── framework.py               # S2DFusionNet top-level model definition
 ├── dim_converter.py           # S2D conversion and 2D CNN downsampling
